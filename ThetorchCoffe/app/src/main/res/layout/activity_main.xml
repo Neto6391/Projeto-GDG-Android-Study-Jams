@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.thetorchcoffe.MainActivity">
+
+    <ImageView
+        android:id="@+id/image_title_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagem_cafe"
+        android:layout_marginTop="-140dp"
+        android:tileMode="repeat"
+        android:dither="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imagem_graos_cafe"
+        android:layout_marginTop="222dp"
+        android:tileMode="repeat"
+        android:dither="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:text="Welcome To The Cafeteria Torch"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+    <Button
+        android:layout_width="98dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:text="Entrar"
+        android:layout_marginTop="350dp"
+        android:onClick="startSecondActivity"
+        />
+
+</RelativeLayout>
+
